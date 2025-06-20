@@ -243,11 +243,7 @@ pre code {
     line-height: 1.5;
 }
 
-/* Dark theme adjustments for code blocks */
-.code-container {
-    background: var(--card-bg);
-}
-
+/* Remove any custom color overrides - let GitHub theme handle colors */
 .code-container pre {
     background: #f8f9fa;
     border: 1px solid #eaf2ff;
